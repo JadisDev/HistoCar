@@ -3,7 +3,7 @@ version: '3.8'
 services:
   postgres:
     image: postgres:13-alpine
-    container_name: postgres_histo_car_
+    container_name: postgres_histo_car
     restart: always
     environment:
       POSTGRES_USER: histo_car_user
@@ -18,7 +18,7 @@ services:
 
   app:
     build: .
-    container_name: histo_car__app
+    container_name: histo_car_app
     restart: always
     depends_on:
       - postgres
