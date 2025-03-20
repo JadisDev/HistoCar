@@ -22,10 +22,7 @@ export class UserService extends GenericService<User> implements IUserService {
       throw new Error(`User with email ${data.email} already exists`);
     }
 
-    console.log('------------------');
-    console.warn({ data });
-
-    return await this.userRepository.create(data);
+    return super.create(data);
   }
 
   async validateUserPassword(email: string, password: string): Promise<User> {
