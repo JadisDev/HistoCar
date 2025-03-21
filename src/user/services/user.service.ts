@@ -34,7 +34,7 @@ export class UserService extends GenericService<User> implements IUserService {
       throw new UnauthorizedException('Invalid credentials');
     }
 
-    const isPasswordValid = await bcrypt.compare(password, user.password);
+    const isPasswordValid = password === user.password;
 
     if (!isPasswordValid) {
       throw new UnauthorizedException('Invalid credentials');
