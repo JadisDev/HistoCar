@@ -5,12 +5,10 @@ import { Redis } from 'ioredis';
 import { BranchDto } from '../dto/branch.dto';
 import { ModelDto } from '../dto/model.dto';
 import { REDIS_CLIENT } from 'src/city/constants';
-import puppeteer from 'puppeteer';
-import { join } from 'path';
 import { readFile } from 'fs/promises';
 
 @Injectable()
-export class CarService {
+export class SearchBrachModel {
   constructor(@Inject(REDIS_CLIENT) private readonly redis: Redis) {}
 
   async getAllBranches(): Promise<BranchDto[]> {

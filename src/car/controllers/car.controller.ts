@@ -1,5 +1,5 @@
 import { Controller, Get, Param, Query, UseGuards } from '@nestjs/common';
-import { CarService } from '../services/car.service';
+import { CarService } from '../services/search.service';
 import { ModelDto } from '../dto/model.dto';
 import { BranchDto } from '../dto/branch.dto';
 import {
@@ -12,8 +12,8 @@ import {
 import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
 
 @ApiTags('Car')
-// @ApiBearerAuth()
-// @UseGuards(JwtAuthGuard)
+@ApiBearerAuth()
+@UseGuards(JwtAuthGuard)
 @Controller('car')
 export class CarController {
   constructor(private readonly carService: CarService) {}
