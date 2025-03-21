@@ -1,0 +1,74 @@
+[
+  {
+    "name": "75",
+    "label": "VOLKSWAGEN",
+    "value": "75",
+    "extraData": {
+      "friendlyPath": "vw-volkswagen"
+    }
+  },
+  {
+    "name": "29",
+    "label": "CHEVROLET",
+    "value": "29",
+    "extraData": {
+      "friendlyPath": "gm-chevrolet"
+    }
+  },
+  {
+    "name": "25",
+    "label": "FIAT",
+    "value": "25",
+    "extraData": {
+      "friendlyPath": "fiat"
+    }
+  },
+  {
+    "name": "33",
+    "label": "HONDA",
+    "value": "33",
+    "extraData": {
+      "friendlyPath": "honda"
+    }
+  },
+  {
+    "name": "73",
+    "label": "TOYOTA",
+    "value": "73",
+    "extraData": {
+      "friendlyPath": "toyota"
+    }
+  },
+  {
+    "name": "27",
+    "label": "FORD",
+    "value": "27",
+    "extraData": {
+      "friendlyPath": "ford"
+    }
+  },
+  {
+    "name": "34",
+    "label": "HYUNDAI",
+    "value": "34",
+    "extraData": {
+      "friendlyPath": "hyundai"
+    }
+  },
+  {
+    "name": "64",
+    "label": "RENAULT",
+    "value": "64",
+    "extraData": {
+      "friendlyPath": "renault"
+    }
+  },
+  {
+    "name": "59",
+    "label": "NISSAN",
+    "value": "59",
+    "extraData": {
+      "friendlyPath": "nissan"
+    }
+  }
+]

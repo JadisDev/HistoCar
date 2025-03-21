@@ -1,0 +1,371 @@
+[
+    {
+      "name": "28",
+      "label": "147",
+      "value": "28",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "147"
+      }
+    },
+    {
+      "name": "1",
+      "label": "500",
+      "value": "1",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "500"
+      }
+    },
+    {
+      "name": "38",
+      "label": "500E",
+      "value": "38",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "500e"
+      }
+    },
+    {
+      "name": "37",
+      "label": "850 CABRIOLET",
+      "value": "37",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "850-cabriolet"
+      }
+    },
+    {
+      "name": "34",
+      "label": "ARGO",
+      "value": "34",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "argo"
+      }
+    },
+    {
+      "name": "2",
+      "label": "BRAVA",
+      "value": "2",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "brava"
+      }
+    },
+    {
+      "name": "3",
+      "label": "BRAVO",
+      "value": "3",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "bravo"
+      }
+    },
+    {
+      "name": "4",
+      "label": "CINQUECENTO",
+      "value": "4",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "cinquecento"
+      }
+    },
+    {
+      "name": "5",
+      "label": "COUPE",
+      "value": "5",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "coupe"
+      }
+    },
+    {
+      "name": "36",
+      "label": "CRONOS",
+      "value": "36",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "cronos"
+      }
+    },
+    {
+      "name": "6",
+      "label": "DOBLO",
+      "value": "6",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "doblo"
+      }
+    },
+    {
+      "name": "7",
+      "label": "DUCATO",
+      "value": "7",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "ducato"
+      }
+    },
+    {
+      "name": "8",
+      "label": "DUCATO-10",
+      "value": "8",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "ducato-10"
+      }
+    },
+    {
+      "name": "9",
+      "label": "DUCATO-15",
+      "value": "9",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "ducato-15"
+      }
+    },
+    {
+      "name": "10",
+      "label": "DUCATO-8",
+      "value": "10",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "ducato-8"
+      }
+    },
+    {
+      "name": "11",
+      "label": "DUNA",
+      "value": "11",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "duna"
+      }
+    },
+    {
+      "name": "42",
+      "label": "E-SCUDO",
+      "value": "42",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "e-scudo"
+      }
+    },
+    {
+      "name": "12",
+      "label": "ELBA",
+      "value": "12",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "elba"
+      }
+    },
+    {
+      "name": "41",
+      "label": "FASTBACK",
+      "value": "41",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "fastback"
+      }
+    },
+    {
+      "name": "13",
+      "label": "FIORINO",
+      "value": "13",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "fiorino"
+      }
+    },
+    {
+      "name": "14",
+      "label": "FREEMONT",
+      "value": "14",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "freemont"
+      }
+    },
+    {
+      "name": "31",
+      "label": "GRAND SIENA",
+      "value": "31",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "grand-siena"
+      }
+    },
+    {
+      "name": "15",
+      "label": "IDEA",
+      "value": "15",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "idea"
+      }
+    },
+    {
+      "name": "16",
+      "label": "LINEA",
+      "value": "16",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "linea"
+      }
+    },
+    {
+      "name": "17",
+      "label": "MAREA",
+      "value": "17",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "marea"
+      }
+    },
+    {
+      "name": "33",
+      "label": "MOBI",
+      "value": "33",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "mobi"
+      }
+    },
+    {
+      "name": "30",
+      "label": "OGGI",
+      "value": "30",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "oggi"
+      }
+    },
+    {
+      "name": "18",
+      "label": "PALIO",
+      "value": "18",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "palio"
+      }
+    },
+    {
+      "name": "29",
+      "label": "PANORAMA",
+      "value": "29",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "panorama"
+      }
+    },
+    {
+      "name": "19",
+      "label": "PREMIO",
+      "value": "19",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "premio"
+      }
+    },
+    {
+      "name": "39",
+      "label": "PULSE",
+      "value": "39",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "pulse"
+      }
+    },
+    {
+      "name": "20",
+      "label": "PUNTO",
+      "value": "20",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "punto"
+      }
+    },
+    {
+      "name": "40",
+      "label": "SCUDO",
+      "value": "40",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "scudo"
+      }
+    },
+    {
+      "name": "21",
+      "label": "SIENA",
+      "value": "21",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "siena"
+      }
+    },
+    {
+      "name": "22",
+      "label": "STILO",
+      "value": "22",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "stilo"
+      }
+    },
+    {
+      "name": "23",
+      "label": "STRADA",
+      "value": "23",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "strada"
+      }
+    },
+    {
+      "name": "25",
+      "label": "TEMPRA",
+      "value": "25",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "tempra"
+      }
+    },
+    {
+      "name": "26",
+      "label": "TIPO",
+      "value": "26",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "tipo"
+      }
+    },
+    {
+      "name": "43",
+      "label": "TITANO",
+      "value": "43",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "titano"
+      }
+    },
+    {
+      "name": "32",
+      "label": "TORO",
+      "value": "32",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "toro"
+      }
+    },
+    {
+      "name": "27",
+      "label": "UNO",
+      "value": "27",
+      "parentId": "25",
+      "extraData": {
+        "friendlyPath": "uno"
+      }
+    }
+  ]

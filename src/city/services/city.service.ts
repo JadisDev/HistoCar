@@ -1,7 +1,7 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { Redis } from 'ioredis';
-import { REDIS_CLIENT } from '../constants';
 import axios from 'axios';
+import { REDIS_CLIENT } from '../constants';
 import { StateDto } from '../dto/state.dto';
 import { CityDto } from '../dto/city.dto';
 import { ICityService } from '../interfaces/city-service.interface';

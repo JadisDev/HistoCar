@@ -1,0 +1,362 @@
+[
+    {
+      "name": "1",
+      "label": "AMAROK",
+      "value": "1",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "amarok"
+      }
+    },
+    {
+      "name": "2",
+      "label": "APOLO",
+      "value": "2",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "apolo"
+      }
+    },
+    {
+      "name": "3",
+      "label": "BORA",
+      "value": "3",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "bora"
+      }
+    },
+    {
+      "name": "31",
+      "label": "BRASILIA",
+      "value": "31",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "brasilia"
+      }
+    },
+    {
+      "name": "4",
+      "label": "CARAVELLE",
+      "value": "4",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "caravelle"
+      }
+    },
+    {
+      "name": "5",
+      "label": "CORRADO",
+      "value": "5",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "corrado"
+      }
+    },
+    {
+      "name": "6",
+      "label": "CROSSFOX",
+      "value": "6",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "crossfox"
+      }
+    },
+    {
+      "name": "42",
+      "label": "DELIVERY EXPRESS",
+      "value": "42",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "delivery-express"
+      }
+    },
+    {
+      "name": "7",
+      "label": "EOS",
+      "value": "7",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "eos"
+      }
+    },
+    {
+      "name": "8",
+      "label": "EUROVAN",
+      "value": "8",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "eurovan"
+      }
+    },
+    {
+      "name": "9",
+      "label": "FOX",
+      "value": "9",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "fox"
+      }
+    },
+    {
+      "name": "10",
+      "label": "FUSCA",
+      "value": "10",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "fusca"
+      }
+    },
+    {
+      "name": "11",
+      "label": "GOL",
+      "value": "11",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "gol"
+      }
+    },
+    {
+      "name": "12",
+      "label": "GOLF",
+      "value": "12",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "golf"
+      }
+    },
+    {
+      "name": "13",
+      "label": "GRAND SAVEIRO",
+      "value": "13",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "grand-saveiro"
+      }
+    },
+    {
+      "name": "14",
+      "label": "JETTA",
+      "value": "14",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "jetta"
+      }
+    },
+    {
+      "name": "39",
+      "label": "KARMANN-GHIA",
+      "value": "39",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "karmann-ghia"
+      }
+    },
+    {
+      "name": "15",
+      "label": "KOMBI",
+      "value": "15",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "kombi"
+      }
+    },
+    {
+      "name": "16",
+      "label": "LOGUS",
+      "value": "16",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "logus"
+      }
+    },
+    {
+      "name": "17",
+      "label": "NEW",
+      "value": "17",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "new"
+      }
+    },
+    {
+      "name": "38",
+      "label": "NIVUS",
+      "value": "38",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "nivus"
+      }
+    },
+    {
+      "name": "18",
+      "label": "PARATI",
+      "value": "18",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "parati"
+      }
+    },
+    {
+      "name": "19",
+      "label": "PASSAT",
+      "value": "19",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "passat"
+      }
+    },
+    {
+      "name": "20",
+      "label": "POINTER",
+      "value": "20",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "pointer"
+      }
+    },
+    {
+      "name": "21",
+      "label": "POLO",
+      "value": "21",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "polo"
+      }
+    },
+    {
+      "name": "41",
+      "label": "PRETTY DAKAR",
+      "value": "41",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "pretty-dakar"
+      }
+    },
+    {
+      "name": "22",
+      "label": "QUANTUM",
+      "value": "22",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "quantum"
+      }
+    },
+    {
+      "name": "23",
+      "label": "SANTANA",
+      "value": "23",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "santana"
+      }
+    },
+    {
+      "name": "24",
+      "label": "SAVEIRO",
+      "value": "24",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "saveiro"
+      }
+    },
+    {
+      "name": "25",
+      "label": "SPACECROSS",
+      "value": "25",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "spacecross"
+      }
+    },
+    {
+      "name": "26",
+      "label": "SPACEFOX",
+      "value": "26",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "spacefox"
+      }
+    },
+    {
+      "name": "37",
+      "label": "T-CROSS",
+      "value": "37",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "t-cross"
+      }
+    },
+    {
+      "name": "40",
+      "label": "TAOS",
+      "value": "40",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "taos"
+      }
+    },
+    {
+      "name": "35",
+      "label": "TIGUAN",
+      "value": "35",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "tiguan"
+      }
+    },
+    {
+      "name": "28",
+      "label": "TOUAREG",
+      "value": "28",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "touareg"
+      }
+    },
+    {
+      "name": "32",
+      "label": "UP!",
+      "value": "32",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "up"
+      }
+    },
+    {
+      "name": "29",
+      "label": "VAN",
+      "value": "29",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "van"
+      }
+    },
+    {
+      "name": "33",
+      "label": "VARIANT",
+      "value": "33",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "variant"
+      }
+    },
+    {
+      "name": "36",
+      "label": "VIRTUS",
+      "value": "36",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "virtus"
+      }
+    },
+    {
+      "name": "30",
+      "label": "VOYAGE",
+      "value": "30",
+      "parentId": "75",
+      "extraData": {
+        "friendlyPath": "voyage"
+      }
+    }
+  ]

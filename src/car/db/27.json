@@ -1,0 +1,479 @@
+[
+    {
+      "name": "1",
+      "label": "AEROSTAR",
+      "value": "1",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "aerostar"
+      }
+    },
+    {
+      "name": "2",
+      "label": "ASPIRE",
+      "value": "2",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "aspire"
+      }
+    },
+    {
+      "name": "34",
+      "label": "BELINA",
+      "value": "34",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "belina"
+      }
+    },
+    {
+      "name": "52",
+      "label": "BRONCO",
+      "value": "52",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "bronco"
+      }
+    },
+    {
+      "name": "3",
+      "label": "CLUB",
+      "value": "3",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "club"
+      }
+    },
+    {
+      "name": "4",
+      "label": "CONTOUR",
+      "value": "4",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "contour"
+      }
+    },
+    {
+      "name": "35",
+      "label": "CORCEL",
+      "value": "35",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "corcel"
+      }
+    },
+    {
+      "name": "5",
+      "label": "COURIER",
+      "value": "5",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "courier"
+      }
+    },
+    {
+      "name": "6",
+      "label": "CROWN",
+      "value": "6",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "crown"
+      }
+    },
+    {
+      "name": "54",
+      "label": "CUSTOM",
+      "value": "54",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "custom"
+      }
+    },
+    {
+      "name": "7",
+      "label": "DEL REY",
+      "value": "7",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "del-rey"
+      }
+    },
+    {
+      "name": "8",
+      "label": "ECOSPORT",
+      "value": "8",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "ecosport"
+      }
+    },
+    {
+      "name": "9",
+      "label": "EDGE",
+      "value": "9",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "edge"
+      }
+    },
+    {
+      "name": "10",
+      "label": "ESCORT",
+      "value": "10",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "escort"
+      }
+    },
+    {
+      "name": "11",
+      "label": "EXPEDITION",
+      "value": "11",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "expedition"
+      }
+    },
+    {
+      "name": "12",
+      "label": "EXPLORER",
+      "value": "12",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "explorer"
+      }
+    },
+    {
+      "name": "36",
+      "label": "F-100",
+      "value": "36",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "f-100"
+      }
+    },
+    {
+      "name": "13",
+      "label": "F-1000",
+      "value": "13",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "f-1000"
+      }
+    },
+    {
+      "name": "14",
+      "label": "F-150",
+      "value": "14",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "f-150"
+      }
+    },
+    {
+      "name": "15",
+      "label": "F-250",
+      "value": "15",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "f-250"
+      }
+    },
+    {
+      "name": "47",
+      "label": "F-350",
+      "value": "47",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "f-350"
+      }
+    },
+    {
+      "name": "46",
+      "label": "F-4000",
+      "value": "46",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "f-4000"
+      }
+    },
+    {
+      "name": "37",
+      "label": "F-75",
+      "value": "37",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "f-75"
+      }
+    },
+    {
+      "name": "53",
+      "label": "FAIRLANE",
+      "value": "53",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "fairlane"
+      }
+    },
+    {
+      "name": "16",
+      "label": "FIESTA",
+      "value": "16",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "fiesta"
+      }
+    },
+    {
+      "name": "17",
+      "label": "FOCUS",
+      "value": "17",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "focus"
+      }
+    },
+    {
+      "name": "18",
+      "label": "FURGLAINE",
+      "value": "18",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "furglaine"
+      }
+    },
+    {
+      "name": "19",
+      "label": "FUSION",
+      "value": "19",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "fusion"
+      }
+    },
+    {
+      "name": "40",
+      "label": "GALAXIE",
+      "value": "40",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "galaxie"
+      }
+    },
+    {
+      "name": "44",
+      "label": "GT",
+      "value": "44",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "gt"
+      }
+    },
+    {
+      "name": "20",
+      "label": "IBIZA",
+      "value": "20",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "ibiza"
+      }
+    },
+    {
+      "name": "51",
+      "label": "JEEP",
+      "value": "51",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "jeep"
+      }
+    },
+    {
+      "name": "21",
+      "label": "KA",
+      "value": "21",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "ka"
+      }
+    },
+    {
+      "name": "38",
+      "label": "KA+",
+      "value": "38",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "ka-mais"
+      }
+    },
+    {
+      "name": "42",
+      "label": "LINCOLN",
+      "value": "42",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "lincoln"
+      }
+    },
+    {
+      "name": "50",
+      "label": "MÃO INGLESA",
+      "value": "50",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "mao-inglesa"
+      }
+    },
+    {
+      "name": "39",
+      "label": "MAVERICK",
+      "value": "39",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "maverick"
+      }
+    },
+    {
+      "name": "22",
+      "label": "MONDEO",
+      "value": "22",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "mondeo"
+      }
+    },
+    {
+      "name": "23",
+      "label": "MUSTANG",
+      "value": "23",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "mustang"
+      }
+    },
+    {
+      "name": "24",
+      "label": "PAMPA",
+      "value": "24",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "pampa"
+      }
+    },
+    {
+      "name": "48",
+      "label": "PHAETON",
+      "value": "48",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "phaeton"
+      }
+    },
+    {
+      "name": "25",
+      "label": "PROBE",
+      "value": "25",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "probe"
+      }
+    },
+    {
+      "name": "26",
+      "label": "RANGER",
+      "value": "26",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "ranger"
+      }
+    },
+    {
+      "name": "27",
+      "label": "ROYALE",
+      "value": "27",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "royale"
+      }
+    },
+    {
+      "name": "28",
+      "label": "TAURUS",
+      "value": "28",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "taurus"
+      }
+    },
+    {
+      "name": "45",
+      "label": "TERRITORY",
+      "value": "45",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "territory"
+      }
+    },
+    {
+      "name": "29",
+      "label": "THUNDERBIRD",
+      "value": "29",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "thunderbird"
+      }
+    },
+    {
+      "name": "30",
+      "label": "TRANSIT",
+      "value": "30",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "transit"
+      }
+    },
+    {
+      "name": "49",
+      "label": "TUDOR ROADSTER",
+      "value": "49",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "tudor-roadster"
+      }
+    },
+    {
+      "name": "31",
+      "label": "VERONA",
+      "value": "31",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "verona"
+      }
+    },
+    {
+      "name": "32",
+      "label": "VERSAILLES",
+      "value": "32",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "versailles"
+      }
+    },
+    {
+      "name": "43",
+      "label": "WILLYS",
+      "value": "43",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "willys"
+      }
+    },
+    {
+      "name": "33",
+      "label": "WINDSTAR",
+      "value": "33",
+      "parentId": "27",
+      "extraData": {
+        "friendlyPath": "windstar"
+      }
+    }
+  ]

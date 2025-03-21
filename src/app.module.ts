@@ -9,6 +9,7 @@ import { AuthModule } from './auth/auth.module';
 import { AuthController } from './auth/controllers/auth.controller';
 import { CityModule } from './city/city.module';
 import { CityController } from './city/controllers/city.controller';
+import { CarModule } from './car/car.module';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import { CityController } from './city/controllers/city.controller';
     UserModule,
     AuthModule,
     CityModule,
+    CarModule,
   ],
   controllers: [AppController, AuthController, CityController],
   providers: [AppService],

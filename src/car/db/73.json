@@ -1,0 +1,218 @@
+[
+    {
+      "name": "24",
+      "label": "ALTEZZA",
+      "value": "24",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "altezza"
+      }
+    },
+    {
+      "name": "1",
+      "label": "AVALON",
+      "value": "1",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "avalon"
+      }
+    },
+    {
+      "name": "2",
+      "label": "BAND.",
+      "value": "2",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "band"
+      }
+    },
+    {
+      "name": "3",
+      "label": "BAND.JIPE",
+      "value": "3",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "bandjipe"
+      }
+    },
+    {
+      "name": "4",
+      "label": "BAND.PICAPE",
+      "value": "4",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "bandpicape"
+      }
+    },
+    {
+      "name": "5",
+      "label": "CAMRY",
+      "value": "5",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "camry"
+      }
+    },
+    {
+      "name": "6",
+      "label": "CELICA",
+      "value": "6",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "celica"
+      }
+    },
+    {
+      "name": "7",
+      "label": "COROLLA",
+      "value": "7",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "corolla"
+      }
+    },
+    {
+      "name": "8",
+      "label": "CORONA",
+      "value": "8",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "corona"
+      }
+    },
+    {
+      "name": "17",
+      "label": "ETIOS",
+      "value": "17",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "etios"
+      }
+    },
+    {
+      "name": "20",
+      "label": "FIELDER",
+      "value": "20",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "fielder"
+      }
+    },
+    {
+      "name": "9",
+      "label": "HILUX",
+      "value": "9",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "hilux"
+      }
+    },
+    {
+      "name": "10",
+      "label": "LAND CRUISER",
+      "value": "10",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "land-cruiser"
+      }
+    },
+    {
+      "name": "11",
+      "label": "MR-2",
+      "value": "11",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "mr-2"
+      }
+    },
+    {
+      "name": "12",
+      "label": "PASEO",
+      "value": "12",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "paseo"
+      }
+    },
+    {
+      "name": "13",
+      "label": "PREVIA",
+      "value": "13",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "previa"
+      }
+    },
+    {
+      "name": "18",
+      "label": "PRIUS",
+      "value": "18",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "prius"
+      }
+    },
+    {
+      "name": "14",
+      "label": "RAV4",
+      "value": "14",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "rav4"
+      }
+    },
+    {
+      "name": "23",
+      "label": "SIENNA",
+      "value": "23",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "sienna"
+      }
+    },
+    {
+      "name": "15",
+      "label": "SUPRA",
+      "value": "15",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "supra"
+      }
+    },
+    {
+      "name": "16",
+      "label": "T-100",
+      "value": "16",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "t-100"
+      }
+    },
+    {
+      "name": "22",
+      "label": "TUNDRA",
+      "value": "22",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "tundra"
+      }
+    },
+    {
+      "name": "21",
+      "label": "VENZA",
+      "value": "21",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "venza"
+      }
+    },
+    {
+      "name": "19",
+      "label": "YARIS",
+      "value": "19",
+      "parentId": "73",
+      "extraData": {
+        "friendlyPath": "yaris"
+      }
+    }
+  ]
