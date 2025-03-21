@@ -7,6 +7,8 @@ import { User } from './user/entities/user.entity';
 import { ConfigModule } from '@nestjs/config';
 import { AuthModule } from './auth/auth.module';
 import { AuthController } from './auth/controllers/auth.controller';
+import { CityModule } from './city/city.module';
+import { CityController } from './city/controllers/city.controller';
 
 @Module({
   imports: [
@@ -24,8 +26,9 @@ import { AuthController } from './auth/controllers/auth.controller';
     ConfigModule.forRoot(),
     UserModule,
     AuthModule,
+    CityModule,
   ],
-  controllers: [AppController, AuthController],
+  controllers: [AppController, AuthController, CityController],
   providers: [AppService],
 })
 export class AppModule {}

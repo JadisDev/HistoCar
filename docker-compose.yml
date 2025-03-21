@@ -16,18 +16,30 @@ services:
     networks:
       - app-network
 
+  redis:
+    image: redis:7-alpine
+    container_name: redis_histo_car
+    restart: always
+    ports:
+      - '6379:6379'
+    networks:
+      - app-network
+
   app:
     build: .
     container_name: histo_car_app
     restart: always
     depends_on:
       - postgres
+      - redis
     environment:
       DATABASE_HOST: postgres
       DATABASE_PORT: 5432
       DATABASE_USER: histo_car_user
       DATABASE_PASSWORD: histo_car_password
       DATABASE_NAME: histo_car_db
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
     ports:
       - '3000:3000'
     command: sh ./src/scripts/start.sh
