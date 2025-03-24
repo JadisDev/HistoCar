@@ -7,6 +7,8 @@ import { UserVehicle } from '../car/entities/user-vehicle.entity';
 
 import { UserModule } from '../user/user.module';
 import { AuthModule } from '../auth/auth.module';
+import { VehicleRepository } from './repositories/vehicle.repository';
+import { VehicleService } from './services/vehicle.service';
 
 @Module({
   imports: [
@@ -15,7 +17,7 @@ import { AuthModule } from '../auth/auth.module';
     forwardRef(() => AuthModule),
   ],
   controllers: [CarController],
-  providers: [SearchBrachModelService],
-  exports: [SearchBrachModelService],
+  providers: [SearchBrachModelService, VehicleRepository, VehicleService],
+  exports: [SearchBrachModelService, VehicleService],
 })
 export class CarModule {}
