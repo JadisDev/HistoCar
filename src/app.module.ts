@@ -10,6 +10,9 @@ import { AuthController } from './auth/controllers/auth.controller';
 import { CityModule } from './city/city.module';
 import { CityController } from './city/controllers/city.controller';
 import { CarModule } from './car/car.module';
+import { CarController } from './car/controllers/car.controller';
+import { Vehicle } from './car/entities/vehicles.entity';
+import { UserVehicle } from './car/entities/user-vehicle.entity';
 
 @Module({
   imports: [
@@ -20,7 +23,7 @@ import { CarModule } from './car/car.module';
       username: process.env.DATABASE_USER!,
       password: process.env.DATABASE_PASSWORD!,
       database: process.env.DATABASE_NAME!,
-      entities: [User],
+      entities: [User, Vehicle, UserVehicle],
       synchronize: false,
     }),
     TypeOrmModule.forFeature([User]),
@@ -30,7 +33,7 @@ import { CarModule } from './car/car.module';
     CityModule,
     CarModule,
   ],
-  controllers: [AppController, AuthController, CityController],
+  controllers: [AppController, AuthController, CityController, CarController],
   providers: [AppService],
 })
 export class AppModule {}

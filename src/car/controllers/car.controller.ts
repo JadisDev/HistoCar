@@ -1,5 +1,4 @@
 import { Controller, Get, Param, Query, UseGuards } from '@nestjs/common';
-import { CarService } from '../services/search.service';
 import { ModelDto } from '../dto/model.dto';
 import { BranchDto } from '../dto/branch.dto';
 import {
@@ -10,13 +9,16 @@ import {
   ApiTags,
 } from '@nestjs/swagger';
 import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
+import { SearchBrachModelService } from '../services/search-branch-model.service';
 
 @ApiTags('Car')
 @ApiBearerAuth()
 @UseGuards(JwtAuthGuard)
 @Controller('car')
 export class CarController {
-  constructor(private readonly carService: CarService) {}
+  constructor(
+    private readonly searchBrachModelService: SearchBrachModelService,
+  ) {}
 
   @ApiOperation({ summary: 'List all branchs' })
   @ApiResponse({
@@ -25,7 +27,7 @@ export class CarController {
   })
   @Get('branches')
   async getBranches(): Promise<BranchDto[]> {
-    return this.carService.getAllBranches();
+    return this.searchBrachModelService.getAllBranches();
   }
 
   @ApiOperation({ summary: 'List all models by branch' })
@@ -39,6 +41,6 @@ export class CarController {
     @Param('branchId') branchId: string,
     @Query('search') search?: string,
   ): Promise<ModelDto[]> {
-    return this.carService.getModelsByName(branchId, search);
+    return this.searchBrachModelService.getModelsByName(branchId, search);
   }
 }

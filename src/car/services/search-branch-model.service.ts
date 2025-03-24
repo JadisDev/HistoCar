@@ -1,5 +1,4 @@
 import { Inject, Injectable } from '@nestjs/common';
-import axios from 'axios';
 import { Redis } from 'ioredis';
 
 import { BranchDto } from '../dto/branch.dto';
@@ -8,7 +7,7 @@ import { REDIS_CLIENT } from 'src/city/constants';
 import { readFile } from 'fs/promises';
 
 @Injectable()
-export class SearchBrachModel {
+export class SearchBrachModelService {
   constructor(@Inject(REDIS_CLIENT) private readonly redis: Redis) {}
 
   async getAllBranches(): Promise<BranchDto[]> {

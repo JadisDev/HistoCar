@@ -1,5 +1,7 @@
 import { DataSource } from 'typeorm';
 import { User } from '../user/entities/user.entity';
+import { Vehicle } from '../car/entities/vehicles.entity';
+import { UserVehicle } from '../car/entities/user-vehicle.entity';
 
 export const AppDataSource = new DataSource({
   type: 'postgres',
@@ -8,7 +10,7 @@ export const AppDataSource = new DataSource({
   username: process.env.DATABASE_USER!,
   password: process.env.DATABASE_PASSWORD!,
   database: process.env.DATABASE_NAME!,
-  entities: [User],
+  entities: [User, Vehicle, UserVehicle],
   migrations: ['src/database/migrations/*.ts'],
   synchronize: false,
 });
