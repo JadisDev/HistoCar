@@ -13,6 +13,9 @@ import { CarModule } from './car/car.module';
 import { CarController } from './car/controllers/car.controller';
 import { Vehicle } from './car/entities/vehicles.entity';
 import { UserVehicle } from './car/entities/user-vehicle.entity';
+import { EventModule } from './event/event.module';
+import { Event } from './event/entities/event';
+import { EventController } from './event/controllers/event.controller';
 
 @Module({
   imports: [
@@ -23,7 +26,7 @@ import { UserVehicle } from './car/entities/user-vehicle.entity';
       username: process.env.DATABASE_USER!,
       password: process.env.DATABASE_PASSWORD!,
       database: process.env.DATABASE_NAME!,
-      entities: [User, Vehicle, UserVehicle],
+      entities: [User, Vehicle, UserVehicle, Event],
       synchronize: false,
     }),
     TypeOrmModule.forFeature([User]),
@@ -32,8 +35,15 @@ import { UserVehicle } from './car/entities/user-vehicle.entity';
     AuthModule,
     CityModule,
     CarModule,
+    EventModule,
   ],
-  controllers: [AppController, AuthController, CityController, CarController],
+  controllers: [
+    AppController,
+    AuthController,
+    CityController,
+    CarController,
+    EventController,
+  ],
   providers: [AppService],
 })
 export class AppModule {}

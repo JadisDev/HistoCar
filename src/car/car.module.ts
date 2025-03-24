@@ -18,6 +18,6 @@ import { VehicleService } from './services/vehicle.service';
   ],
   controllers: [CarController],
   providers: [SearchBrachModelService, VehicleRepository, VehicleService],
-  exports: [SearchBrachModelService, VehicleService],
+  exports: [SearchBrachModelService, VehicleService, VehicleRepository],
 })
 export class CarModule {}
