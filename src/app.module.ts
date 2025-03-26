@@ -16,6 +16,8 @@ import { UserVehicle } from './car/entities/user-vehicle.entity';
 import { EventModule } from './event/event.module';
 import { Event } from './event/entities/event';
 import { EventController } from './event/controllers/event.controller';
+import { FileModule } from './file/file.module';
+import { FileController } from './file/controllers/file.controller';
 
 @Module({
   imports: [
@@ -36,6 +38,7 @@ import { EventController } from './event/controllers/event.controller';
     CityModule,
     CarModule,
     EventModule,
+    FileModule,
   ],
   controllers: [
     AppController,

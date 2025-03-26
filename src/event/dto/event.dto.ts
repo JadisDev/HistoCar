@@ -8,6 +8,7 @@ import {
   IsString,
   IsUUID,
 } from 'class-validator';
+import { Type } from 'class-transformer';
 
 export enum EventType {
   PREVENTIVE_MAINTENANCE = 'preventive_maintenance',
@@ -60,8 +61,12 @@ export class CreateEventDto {
   @IsOptional()
   workshop?: string;
 
-  @ApiProperty({ example: 'https://my-bucket.s3.amazonaws.com/attachment.jpg' })
-  @IsString()
+  @ApiProperty({
+    type: 'string',
+    format: 'binary',
+    required: false,
+    description: 'Imagem do evento (opcional)',
+  })
   @IsOptional()
-  attachmentUrl?: string;
+  file?: any;
 }
