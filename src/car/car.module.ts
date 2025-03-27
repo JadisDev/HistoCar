@@ -9,12 +9,15 @@ import { UserModule } from '../user/user.module';
 import { AuthModule } from '../auth/auth.module';
 import { VehicleRepository } from './repositories/vehicle.repository';
 import { VehicleService } from './services/vehicle.service';
+import { SharedModule } from '../shared/shared.module';
+import { Share } from '../shared/entities/shared';
 
 @Module({
   imports: [
-    TypeOrmModule.forFeature([Vehicle, UserVehicle]),
+    TypeOrmModule.forFeature([Vehicle, UserVehicle, Share]),
     forwardRef(() => UserModule),
     forwardRef(() => AuthModule),
+    forwardRef(() => SharedModule),
   ],
   controllers: [CarController],
   providers: [SearchBrachModelService, VehicleRepository, VehicleService],

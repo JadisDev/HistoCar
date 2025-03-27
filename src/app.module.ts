@@ -17,7 +17,9 @@ import { EventModule } from './event/event.module';
 import { Event } from './event/entities/event';
 import { EventController } from './event/controllers/event.controller';
 import { FileModule } from './file/file.module';
-import { FileController } from './file/controllers/file.controller';
+import { SharedModule } from './shared/shared.module';
+import { ShareController } from './shared/controllers/shared.controller';
+import { Share } from './shared/entities/shared';
 
 @Module({
   imports: [
@@ -28,7 +30,7 @@ import { FileController } from './file/controllers/file.controller';
       username: process.env.DATABASE_USER!,
       password: process.env.DATABASE_PASSWORD!,
       database: process.env.DATABASE_NAME!,
-      entities: [User, Vehicle, UserVehicle, Event],
+      entities: [User, Vehicle, UserVehicle, Event, Share],
       synchronize: false,
     }),
     TypeOrmModule.forFeature([User]),
@@ -39,6 +41,7 @@ import { FileController } from './file/controllers/file.controller';
     CarModule,
     EventModule,
     FileModule,
+    SharedModule,
   ],
   controllers: [
     AppController,
@@ -46,6 +49,7 @@ import { FileController } from './file/controllers/file.controller';
     CityController,
     CarController,
     EventController,
+    ShareController,
   ],
   providers: [AppService],
 })

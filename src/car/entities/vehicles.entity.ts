@@ -7,6 +7,7 @@ import {
   OneToMany,
 } from 'typeorm';
 import { UserVehicle } from '../entities/user-vehicle.entity';
+import { Share } from '../../shared/entities/shared';
 
 @Entity('vehicles')
 export class Vehicle {
@@ -45,4 +46,7 @@ export class Vehicle {
 
   @OneToMany(() => UserVehicle, (userVehicle) => userVehicle.vehicle)
   userVehicles: UserVehicle[];
+
+  @OneToMany(() => Share, (share) => share.vehicle, { cascade: true })
+  shares: Share[];
 }
